@@ -1,0 +1,52 @@
+{
+  "name": "work-hub-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@univerjs-pro/sheets-chart": "^0.6.0",
+    "@univerjs-pro/sheets-chart-ui": "^0.6.0",
+    "@univerjs-pro/sheets-print": "^0.6.0",
+    "@univerjs/core": "^0.6.0",
+    "@univerjs/design": "^0.6.0",
+    "@univerjs/docs": "^0.6.0",
+    "@univerjs/docs-drawing": "^0.6.0",
+    "@univerjs/docs-ui": "^0.6.0",
+    "@univerjs/drawing": "^0.6.0",
+    "@univerjs/drawing-ui": "^0.6.0",
+    "@univerjs/engine-formula": "^0.6.0",
+    "@univerjs/engine-render": "^0.6.0",
+    "@univerjs/sheets": "^0.6.0",
+    "@univerjs/sheets-drawing": "^0.6.0",
+    "@univerjs/sheets-drawing-ui": "^0.6.0",
+    "@univerjs/sheets-formula": "^0.6.0",
+    "@univerjs/sheets-formula-ui": "^0.6.0",
+    "@univerjs/sheets-numfmt": "^0.6.0",
+    "@univerjs/sheets-numfmt-ui": "^0.6.0",
+    "@univerjs/sheets-ui": "^0.6.0",
+    "@univerjs/ui": "^0.6.0",
+    "@univerjs/vite-plugin": "^0.5.1",
+    "@zwight/luckyexcel": "^1.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "less": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^6.0.3"
+  }
+}
