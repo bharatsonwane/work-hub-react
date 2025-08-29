@@ -58,6 +58,7 @@ import CustomSaveMenu from './plugins/controllers/menu/save.menu';
 
 const UniverComponent: React.FC = () => {
   const univerAPIRef = useRef<FUniver | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [loading, setLoading] = useState(false);
 
   const getUniverSnapshot = () => {
@@ -97,7 +98,7 @@ const UniverComponent: React.FC = () => {
       univer.registerPlugin(UniverFormulaEnginePlugin);
 
       univer.registerPlugin(UniverUIPlugin, {
-        container: 'univer',
+        container: containerRef.current!,
       });
 
       univer.registerPlugin(UniverDocsPlugin);
@@ -177,7 +178,7 @@ const UniverComponent: React.FC = () => {
   }, []);
 
   return (
-    <div id="univer" style={{ width: '100%', height: '100%' }}></div>
+    <div ref={containerRef} style={{ width: '100%', height: '100%' }}></div>
   );
 };
 
