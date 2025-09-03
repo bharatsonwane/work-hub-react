@@ -17,7 +17,7 @@ import {
 import { DownloadSingle } from '@univerjs/icons';
 
 import { ICustomMenuPulginParams } from '../..';
-import { waitUserSelectExcelFile } from '../../../../utils';
+import { waitUserSelectExcelFile } from '../../../utils';
 // import { UnitModel } from '@univerjs/core/lib/types/common/unit';
 import LuckyExcel from '@zwight/luckyexcel';
 

@@ -51,10 +51,10 @@ import '@univerjs/drawing-ui/lib/index.css';
 import '@univerjs-pro/sheets-chart-ui/lib/index.css';
 import '@univerjs/sheets-drawing-ui/lib/index.css';
 
-import { UniverSheetsCustomMenuPlugin } from './plugins';
-import CustomImportMenu from './plugins/controllers/menu/import.menu';
-import CustomExportMenu from './plugins/controllers/menu/export.menu';
-import CustomSaveMenu from './plugins/controllers/menu/save.menu';
+import { UniverSheetsCustomMenuPlugin } from '../utils/plugins';
+import CustomImportMenu from '../utils/plugins/controllers/menu/import.menu';
+import CustomExportMenu from '../utils/plugins/controllers/menu/export.menu';
+import CustomSaveMenu from '../utils/plugins/controllers/menu/save.menu';
 
 const UniverComponent: React.FC = () => {
   const univerAPIRef = useRef<FUniver | null>(null);

@@ -1,9 +1,9 @@
-import Univer from "./components/Univer.tsx";
+import UniverComponent from "./components/UniverComponent.tsx";
 
 function App() {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
-      <Univer />
+      <UniverComponent />
     </div>
   );
 }
