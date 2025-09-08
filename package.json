@@ -10,6 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 20"
   },
   "dependencies": {
+    "@mertdeveci55/univer-import-export": "^0.1.40",
     "@univerjs-pro/sheets-chart": "^0.10.6",
     "@univerjs-pro/sheets-chart-ui": "^0.10.6",
     "@univerjs-pro/sheets-print": "^0.10.6",
@@ -32,7 +33,6 @@
     "@univerjs/sheets-ui": "^0.10.6",
     "@univerjs/ui": "^0.10.6",
     "@univerjs/vite-plugin": "^0.5.1",
-    "@zwight/luckyexcel": "^1.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
