@@ -41,6 +41,7 @@ import SheetsChartUIEnUS from "@univerjs-pro/sheets-chart-ui/locale/en-US";
 import DrawingUIEnUS from "@univerjs/drawing-ui/locale/en-US";
 import SheetsDrawingUIEnUS from "@univerjs/sheets-drawing-ui/locale/en-US";
 import SheetsSortEnUS from "@univerjs/sheets-sort/locale/en-US";
+import SheetsSortUIEnUS from "@univerjs/sheets-sort-ui/locale/en-US";
 import SheetsFilterUIEnUS from "@univerjs/sheets-filter-ui/locale/en-US";
 
 // The Facade API here is optional, you can decide whether to introduce it based on your needs
@@ -85,22 +86,23 @@ const UniverComponent: React.FC = () => {
         theme: defaultTheme,
         locale: LocaleType.EN_US,
         locales: {
-          [LocaleType.EN_US]: Tools.deepMerge(
-            DesignEnUS,
-            UIEnUS,
-            DocsUIEnUS,
-            SheetsEnUS,
-            SheetsUIEnUS,
-            SheetsFormulaUIEnUS,
-            SheetsNumfmtUIEnUS,
-            SheetsSortEnUS,
-            SheetsFilterUIEnUS,
-            SheetsPrintPluginEnUS,
-            SheetsChartEnUS,
-            SheetsChartUIEnUS,
-            DrawingUIEnUS,
-            SheetsDrawingUIEnUS
-          ),
+          [LocaleType.EN_US]: {
+            ...DesignEnUS,
+            ...UIEnUS,
+            ...DocsUIEnUS,
+            ...SheetsEnUS,
+            ...SheetsUIEnUS,
+            ...SheetsFormulaUIEnUS,
+            ...SheetsNumfmtUIEnUS,
+            ...SheetsSortEnUS,
+            ...SheetsSortUIEnUS,
+            ...SheetsFilterUIEnUS,
+            ...SheetsPrintPluginEnUS,
+            ...SheetsChartEnUS,
+            ...SheetsChartUIEnUS,
+            ...DrawingUIEnUS,
+            ...SheetsDrawingUIEnUS
+          },
         },
       });
 
