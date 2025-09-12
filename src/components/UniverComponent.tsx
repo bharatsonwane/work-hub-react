@@ -123,10 +123,10 @@ const UniverComponent: React.FC = () => {
       univer.registerPlugin(UniverSheetsNumfmtPlugin);
       univer.registerPlugin(UniverSheetsNumfmtUIPlugin);
 
-      univer.registerPlugin(UniverSheetsSortPlugin as any);
-      univer.registerPlugin(UniverSheetsSortUIPlugin as any);
-      univer.registerPlugin(UniverSheetsFilterPlugin as any);
-      univer.registerPlugin(UniverSheetsFilterUIPlugin as any);
+      univer.registerPlugin(UniverSheetsSortPlugin as any, {});
+      univer.registerPlugin(UniverSheetsSortUIPlugin as any, {});
+      univer.registerPlugin(UniverSheetsFilterPlugin as any, {});
+      univer.registerPlugin(UniverSheetsFilterUIPlugin as any, {});
 
       univer.registerPlugin(UniverDrawingPlugin);
       univer.registerPlugin(UniverDrawingUIPlugin);
